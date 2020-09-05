@@ -128,8 +128,33 @@ header {
 
 }
 
+/* Grid Apuntes */
+.grid-apuntes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
 
-/* Medidas ya tipo celular - Igual cuando llega a este punto, calculamos que nada quede mal */
+.apuntes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  text-align: center;
+  border-radius: 20px;
+  height: 300px;
+  border: 1px solid gray;
+}
+
+.apuntes > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+
+.js { background-color: #D6D66F }
+
+/* Medidas móviles - Igual cuando llega a este punto, calculamos que nada quede mal */
 @media screen and (max-width: 665px) {
   header {
     height: 60px;
