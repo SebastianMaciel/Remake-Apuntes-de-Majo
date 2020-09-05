@@ -8,6 +8,11 @@ body {
   min-width: 325px;
 }
 
+/* -------------------------- */
+/*           Header           */
+/* -------------------------- */
+
+/* Unicornio & Links */
 header {
   display: flex;
   justify-content: space-between;
@@ -16,34 +21,40 @@ header {
   height: 100px;
 }
 
-.header-links {
-  font-size: 2.5em;
-  transition: 0.1s;
-}
-
-.la-twitter:hover {
-  color: #1EA1F2;
-}
-
-.la-github:hover {
-  color: lightslategray;
-}
-
-.la-linkedin-in:hover {
-  color: #3790C3;
-}
-
-.header-links a {
-  text-decoration: none;
-  color: rgb(24, 24, 24);
-}
-
+/* Unicornio saltarín */
 .unicornio {
   width: 50px;
   height: 50px;
   padding-left: 10px;
 }
 
+/* Links ubicación & font size */
+.header-links {
+  display: flex;
+  align-items: center;
+  font-size: 2.5em;
+  transition: 0.1s;
+}
+
+/* Links estilos internos */
+.header-links a {
+  padding: 0 10px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+}
+
+/* Hover sobre los links del header */
+.la-twitter:hover     { color: #1EA1F2; }
+.la-github:hover      { color: lightslategray; }
+.la-linkedin-in:hover { color: #3790C3; }
+
+
+/* -------------------------- */
+/* Empezamos con el contenido */
+/* -------------------------- */
+
+/* Majo Ledesma - Hi human!... */
 .intro {
   display: flex;
   justify-content: space-evenly;
@@ -55,12 +66,14 @@ header {
   color: rgb(231, 231, 231);
 }
 
+/* Majo Ledesma */
 .majo {
   font-size: 4em;
   letter-spacing: -2px;
   text-align: center;
 }
 
+/* Estilo de mini presentación */
 .about {
   display: flex;
   flex-direction: column;
@@ -69,27 +82,33 @@ header {
   text-align: center;
 }
 
+/* Texto que tenga margin & font size */
 .about p {
   font-size: 1.2em;
   margin-top: 10px;
 }
 
+/* Resaltado: apuntes a mano */
 .resaltador {
   padding: 0px 5px;
   background-color: rgba(124, 62, 240, 0.521);
   color: white;
 }
 
+/* Un toque de separación: Espero te sean de ayuda */
 .hope {
   padding-top: 30px;
 }
 
+/* Separación y tipo flex: "Puedes sugerirme temas en..." */
 .follow {
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  line-height: 25px;
 }
 
+/* Esto tiene su propia onda y cosas: @majoledes */
 .follow > .link {
   color: #1EA1F2;
   text-decoration: none;
@@ -97,8 +116,10 @@ header {
   transition: 0.3s;
   max-width: 150px;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
+/* Cuando le hacemos hover a @majoledes */
 .follow > .link:hover {
   border-radius: 5px;
   background-color: #1EA1F2;
@@ -107,6 +128,8 @@ header {
 
 }
 
+
+/* Medidas ya tipo celular - Igual cuando llega a este punto, calculamos que nada quede mal */
 @media screen and (max-width: 665px) {
   header {
     height: 60px;
@@ -118,6 +141,7 @@ header {
   }
 
   .majo {
+    margin: 0 20px;
     padding-bottom: 25px;
   }
  }
