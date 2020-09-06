@@ -169,6 +169,18 @@ header {
   font-size: 2em;
 }
 
+.apunte-paginas {
+  font-size: 1.2em;
+}
+
+.apunte-boton {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
 /* Cada vez que se agregan nuevos apuntes: */
 /* Ponemos los colores de fondo y el :hover                      Algunos fondos requieren un toque de contraste diferente */
 .js { background-color: #cfcf7e; transition: 0.3s }           .js:hover { filter: contrast(130%) }
