@@ -155,7 +155,6 @@ header {
 
 /* Título de cada apunte */
 .apunte-titulo {
-
   font-size: 3em !important;
 }
 
@@ -170,6 +169,7 @@ header {
 }
 
 .apunte-paginas {
+  padding-top: 5px;
   font-size: 1.2em;
 }
 
