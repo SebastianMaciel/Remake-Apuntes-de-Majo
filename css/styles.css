@@ -65,8 +65,13 @@ header {
   color: rgb(231, 231, 231);
   margin: 0px 5px;
   border-radius: 20px;
+  transition: 0.3s;
   /* Este margin es para que no se le pegue el flex de los apuntes */
   margin-bottom: 5px;
+}
+
+.intro:hover {
+  filter: contrast(130%)
 }
 
 /* Majo Ledesma */
@@ -266,6 +271,11 @@ footer {
   margin: 0px 5px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  transition: 0.3s
+}
+
+footer:hover {
+  filter: contrast(130%)
 }
 
 /* Medidas móviles - Igual cuando llega a este punto, calculamos que nada quede mal */
