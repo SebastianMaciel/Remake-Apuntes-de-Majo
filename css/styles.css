@@ -1,11 +1,11 @@
 body {
   /* font-family: 'Montserrat', sans-serif; */
+  box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
   background-color: rgb(240, 240, 240);
+  min-width: 325px;
   color: rgb(78, 78, 78);
   font-weight: 600;
-  box-sizing: border-box;
-  min-width: 325px;
 }
 
 /* -------------------------- */
@@ -39,8 +39,8 @@ header {
 .header-links a {
   padding: 0 10px;
   margin: 0 auto;
-  text-decoration: none;
   color: rgb(78, 78, 78);
+  text-decoration: none;
 }
 
 /* Hover sobre los links del header */
@@ -58,18 +58,19 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0px 5px;
   min-height: 300px;
+  background-color: #363636;
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
-  background-color: #363636;
   color: rgb(231, 231, 231);
-  margin: 0px 5px;
   border-radius: 20px;
   transition: 0.3s;
   /* Este margin es para que no se le pegue el flex de los apuntes */
   margin-bottom: 5px;
 }
 
+/* Levantamos el color de fondo cuando hacemos hover  */
 .intro:hover {
   filter: contrast(130%)
 }
@@ -77,8 +78,8 @@ header {
 /* Majo Ledesma */
 .majo {
   font-size: 4em;
-  letter-spacing: -2px;
   text-align: center;
+  letter-spacing: -2px;
 }
 
 /* Estilo de mini presentación */
@@ -92,8 +93,8 @@ header {
 
 /* Texto que tenga margin & font size */
 .about p {
-  font-size: 1.2em;
   margin-top: 10px;
+  font-size: 1.2em;
 }
 
 /* Hi human! */
@@ -123,20 +124,20 @@ header {
 
 /* Esto tiene su propia onda y cosas: @majoledes */
 .follow > .link {
+  margin: 0 auto;
+  padding: 5px;
+  max-width: 150px;
   color: #1EA1F2;
   text-decoration: none;
-  padding: 5px;
-  transition: 0.3s;
-  max-width: 150px;
-  margin: 0 auto;
   border-radius: 5px;
+  transition: 0.3s;
 }
 
 /* Cuando le hacemos hover a @majoledes */
 .follow > .link:hover {
-  border-radius: 5px;
   background-color: #1EA1F2;
   color: rgb(231, 231, 231);
+  border-radius: 5px;
   transition: 0.3s;
 
 }
@@ -158,19 +159,19 @@ header {
   justify-content: space-evenly;
   align-items: center;
   flex-grow: 1;
-  min-width: 365px;
   margin: 5px;
-  text-align: center;
-  border-radius: 20px;
   height: 300px;
-  text-decoration: none;
+  min-width: 365px;
+  border-radius: 20px;
   color: rgb(240, 240, 240);
+  text-decoration: none;
+  text-align: center;
 }
 
 /* Título de cada apunte */
 .apunte-titulo {
-  font-size: 2.8em;
   padding-top: 5px;
+  font-size: 2.8em;
 }
 
 /* El ícono del lenguaje, en su versión más finita */
@@ -194,8 +195,8 @@ header {
   margin-top: 20px;
   margin-bottom: 15px;
   padding: 20px 20px 18px 20px;
-  border-radius: 15px;
   border: 1px solid rgba(240, 240, 240, 0.445);
+  border-radius: 15px;
   font-size: 1.5em;
   transition: 0.3s;
 }
@@ -235,12 +236,12 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin: 5px;
   padding: 100px 40px;
   color: rgb(87, 87, 87);
-  margin: 5px;
-  border-radius: 20px;
-  font-size: 2.5em;
   text-align: center;
+  font-size: 2.5em;
+  border-radius: 20px;
 }
 
 /* Flex del texto + botón */
@@ -248,8 +249,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 30px;
   padding-top: 50px;
+  font-size: 30px;
 }
 
 /* Empujamos un toque el botón */
@@ -263,17 +264,18 @@ header {
 
 /* Es solo un texto, así que va puro estilo por el momento :) */
 footer {
+  margin: 0px 5px;
   padding: 30px;
-  text-align: center;
   background-color: #363636;
   color: rgb(240, 240, 240);
+  text-align: center;
   font-size: 1.2em;
-  margin: 0px 5px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   transition: 0.3s
 }
 
+/* Levantamos el color de fondo cuando hacemos hover  */
 footer:hover {
   filter: contrast(130%)
 }
