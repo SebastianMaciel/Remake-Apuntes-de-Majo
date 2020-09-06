@@ -1,2 +1,3 @@
-# apuntes2
- Remake de Apuntes
+# Los Apuntes de Majo
+
+ Remake del sitio web de Apuntes de Majo
