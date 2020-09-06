@@ -170,6 +170,7 @@ header {
 /* Título de cada apunte */
 .apunte-titulo {
   font-size: 2.8em;
+  padding-top: 5px;
 }
 
 /* El ícono del lenguaje, en su versión más finita */
@@ -230,7 +231,6 @@ header {
 
 /* Cuadrito de colaboración */
 .colaboracion {
-  /* border: 1px solid gray; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -249,7 +249,7 @@ header {
   flex-direction: column;
   align-items: center;
   font-size: 30px;
-  padding-top: 1em;
+  padding-top: 50px;
 }
 
 /* Empujamos un toque el botón */
