@@ -50,7 +50,7 @@ header {
 
 
 /* -------------------------- */
-/* Empezamos con el contenido */
+/*            Intro           */
 /* -------------------------- */
 
 /* Majo Ledesma - Hi human!... */
@@ -131,6 +131,10 @@ header {
 
 }
 
+/* -------------------------- */
+/*           Apuntes          */
+/* -------------------------- */
+
 /* Flex Contenedor de Apuntes */
 .flex-apuntes {
   display: flex;
@@ -168,20 +172,23 @@ header {
   font-size: 2em;
 }
 
+/* Detalle de Cantidad de páginas */
 .apunte-paginas {
   padding-top: 5px;
   font-size: 1.2em;
 }
 
+/* Estilo del botón */
 .apunte-boton {
   margin-top: 20px;
   margin-bottom: 15px;
-  padding: 20px 20px 17px 20px;
+  padding: 20px 20px 18px 20px;
   border-radius: 15px;
   border: 1px solid rgb(240, 240, 240);
   transition: 0.3s;
 }
 
+/* Hover del botón */
 .apunte-boton:hover {
   background-color: rgb(240, 240, 240);
   color: rgb(119, 119, 119);
@@ -194,6 +201,36 @@ header {
 .react-hooks { background-color: #F0ADE8; transition: 0.3s }  .react-hooks:hover { filter: contrast(150%) }
 .python { background-color: #8597B9; transition: 0.3s }       .python:hover { filter: contrast(150%) }
 .css { background-color: rgb(255, 167, 182); transition: 0.3s }             .css:hover { filter: contrast(150%) }
+
+/* -------------------------- */
+/*        Colaboración        */
+/* -------------------------- */
+
+.colaboracion {
+  /* border: 1px solid gray; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 40px;
+  color: rgb(87, 87, 87);
+  margin: 5px 5px;
+  border-radius: 20px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.cafecito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  padding-top: 1em;
+}
+
+.cafecito a {
+  padding-top: 30px;
+}
 
 /* Medidas móviles - Igual cuando llega a este punto, calculamos que nada quede mal */
 @media screen and (max-width: 665px) {
