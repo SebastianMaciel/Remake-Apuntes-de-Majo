@@ -64,6 +64,8 @@ header {
   font-weight: 600;
   background-color: #2C2C2C;
   color: rgb(231, 231, 231);
+  /* Este margin es para que no se le pegue el flex de los apuntes */
+  margin-bottom: 5px;
 }
 
 /* Majo Ledesma */
@@ -128,31 +130,38 @@ header {
 
 }
 
-/* Grid Apuntes */
-.grid-apuntes {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+/* Flex de Apuntes */
+.flex-apuntes {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .apuntes {
   display: flex;
-  justify-content: center;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 2px;
+  flex-grow: 1;
+  min-width: 370px;
+  margin: 5px;
   text-align: center;
   border-radius: 20px;
   height: 300px;
-  border: 1px solid gray;
-}
-
-.apuntes > a {
-  display: block;
   text-decoration: none;
-  color: white;
+}
+
+.apunte-titulo {
+  color: rgb(255, 255, 255);
+  font-size: 3em !important;
 }
 
 
-.js { background-color: #D6D66F }
+/* Ponemos los colores de fondo y el :hover */
+.js { background-color: #bebe60; transition: 0.3s }           .js:hover { filter: contrast(130%) }
+.react { background-color: #9984A8; transition: 0.3s }        .react:hover { filter: contrast(150%) }
+.react-hooks { background-color: #F0ADE8; transition: 0.3s }  .react-hooks:hover { filter: contrast(150%) }
+.python { background-color: #8597B9; transition: 0.3s }       .python:hover { filter: contrast(150%) }
+.css { background-color: pink; transition: 0.3s }             .css:hover { filter: contrast(120%) }
 
 /* Medidas móviles - Igual cuando llega a este punto, calculamos que nada quede mal */
 @media screen and (max-width: 665px) {
