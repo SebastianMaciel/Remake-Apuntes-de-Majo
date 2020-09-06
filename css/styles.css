@@ -129,12 +129,13 @@ header {
 
 }
 
-/* Flex de Apuntes */
+/* Flex Contenedor de Apuntes */
 .flex-apuntes {
   display: flex;
   flex-flow: row wrap;
 }
 
+/* Block de Apunte */
 .apuntes {
   display: flex;
   flex-flow: column wrap;
@@ -149,13 +150,19 @@ header {
   text-decoration: none;
 }
 
+/* Título de cada apunte */
 .apunte-titulo {
   color: rgb(255, 255, 255);
   font-size: 3em !important;
 }
 
+/* El ícono del lenguaje, en su versión más finita */
+.apunte-titulo i {
+  font-weight: lighter;
+}
 
-/* Ponemos los colores de fondo y el :hover */
+/* Cada vez que se agregan nuevos apuntes: */
+/* Ponemos los colores de fondo y el :hover                      Algunos fondos requieren un toque de contraste diferente */
 .js { background-color: #bebe60; transition: 0.3s }           .js:hover { filter: contrast(130%) }
 .react { background-color: #9984A8; transition: 0.3s }        .react:hover { filter: contrast(150%) }
 .react-hooks { background-color: #F0ADE8; transition: 0.3s }  .react-hooks:hover { filter: contrast(150%) }
