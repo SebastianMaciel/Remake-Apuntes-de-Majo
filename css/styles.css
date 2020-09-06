@@ -95,7 +95,7 @@ header {
 .resaltador {
   padding: 0px 5px;
   background-color: rgba(124, 62, 240, 0.521);
-  color: white;
+  color: rgb(240, 240, 240);
 }
 
 /* Un toque de separación: Espero te sean de ayuda */
@@ -144,7 +144,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
   flex-grow: 1;
-  min-width: 370px;
+  min-width: 365px;
   margin: 5px;
   text-align: center;
   border-radius: 20px;
@@ -176,9 +176,15 @@ header {
 .apunte-boton {
   margin-top: 20px;
   margin-bottom: 15px;
-  padding: 20px;
+  padding: 20px 20px 17px 20px;
   border-radius: 15px;
-  border: 1px solid white;
+  border: 1px solid rgb(240, 240, 240);
+  transition: 0.3s;
+}
+
+.apunte-boton:hover {
+  background-color: rgb(240, 240, 240);
+  color: rgb(119, 119, 119);
 }
 
 /* Cada vez que se agregan nuevos apuntes: */
