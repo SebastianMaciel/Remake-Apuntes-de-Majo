@@ -21,7 +21,7 @@ header {
   height: 100px;
 }
 
-/* Unicornio saltarín */
+/* Unicornio feliz */
 .unicornio {
   width: 50px;
   height: 50px;
@@ -40,7 +40,7 @@ header {
   padding: 0 10px;
   margin: 0 auto;
   text-decoration: none;
-  color: rgb(24, 24, 24);
+  color: rgb(78, 78, 78);
 }
 
 /* Hover sobre los links del header */
@@ -63,6 +63,8 @@ header {
   font-weight: 600;
   background-color: #363636;
   color: rgb(231, 231, 231);
+  margin: 0px 5px;
+  border-radius: 20px;
   /* Este margin es para que no se le pegue el flex de los apuntes */
   margin-bottom: 5px;
 }
@@ -148,11 +150,12 @@ header {
   border-radius: 20px;
   height: 300px;
   text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 
 /* Título de cada apunte */
 .apunte-titulo {
-  color: rgb(255, 255, 255);
+
   font-size: 3em !important;
 }
 
@@ -161,13 +164,18 @@ header {
   font-weight: lighter;
 }
 
+/* "Básico", y esas descripciones... */
+.apunte-tipo {
+  font-size: 2em;
+}
+
 /* Cada vez que se agregan nuevos apuntes: */
 /* Ponemos los colores de fondo y el :hover                      Algunos fondos requieren un toque de contraste diferente */
-.js { background-color: #bebe60; transition: 0.3s }           .js:hover { filter: contrast(130%) }
+.js { background-color: #cfcf7e; transition: 0.3s }           .js:hover { filter: contrast(130%) }
 .react { background-color: #9984A8; transition: 0.3s }        .react:hover { filter: contrast(150%) }
 .react-hooks { background-color: #F0ADE8; transition: 0.3s }  .react-hooks:hover { filter: contrast(150%) }
 .python { background-color: #8597B9; transition: 0.3s }       .python:hover { filter: contrast(150%) }
-.css { background-color: pink; transition: 0.3s }             .css:hover { filter: contrast(120%) }
+.css { background-color: rgb(255, 167, 182); transition: 0.3s }             .css:hover { filter: contrast(150%) }
 
 /* Medidas móviles - Igual cuando llega a este punto, calculamos que nada quede mal */
 @media screen and (max-width: 665px) {
