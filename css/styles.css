@@ -157,25 +157,25 @@ header {
 }
 
 /* Block de Apunte */
-.apuntes {
+.apunte {
+  margin: 5px;
+  height: 300px;
+  min-width: 365px;
+  border-radius: 20px;
+  text-align: center;
+  color: rgb(240, 240, 240);
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center;
   flex-grow: 1;
-  margin: 5px;
-  height: 300px;
-  min-width: 365px;
-  border-radius: 20px;
-  color: rgb(240, 240, 240);
   text-decoration: none;
-  text-align: center;
 }
 
 /* Título de cada apunte */
 .apunte-titulo {
-  padding-top: 5px;
   font-size: 2.8em;
+  padding-top: 5px;
 }
 
 /* El ícono del lenguaje, en su versión más finita */
@@ -196,10 +196,10 @@ header {
 
 /* Estilo del botón */
 .apunte-boton {
+  border: 1px solid rgba(240, 240, 240, 0.445);
   margin-top: 20px;
   margin-bottom: 15px;
   padding: 20px 20px 18px 20px;
-  border: 1px solid rgba(240, 240, 240, 0.445);
   border-radius: 15px;
   font-size: 1.5em;
   transition: 0.3s;
@@ -236,15 +236,15 @@ header {
 
 /* Cuadrito de colaboración */
 .colaboracion {
+  margin: 5px;
+  padding: 100px 40px;
+  text-align: center;
+  color: rgb(87, 87, 87);
+  font-size: 2.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 5px;
-  padding: 100px 40px;
-  color: rgb(87, 87, 87);
-  text-align: center;
-  font-size: 2.5em;
   border-radius: 20px;
 }
 
@@ -259,7 +259,7 @@ header {
 
 /* Empujamos un toque el botón */
 .cafecito a {
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 /* -------------------------- */
@@ -284,7 +284,7 @@ footer:hover {
   filter: contrast(130%)
 }
 
-/* Medidas móviles - Igual cuando llega a este punto, calculamos que nada quede mal */
+/* Media queries - Cuando llega a este punto, corregimos visual */
 @media screen and (max-width: 665px) {
   /* Bajamos un toque el espaciado */
   header {
@@ -300,7 +300,6 @@ footer:hover {
 
   /* Espaciamos un poco mejor */
   .majo {
-    margin: 0 20px;
-    padding-bottom: 25px;
+    padding: 10px 0px 40px 0px;
   }
  }
