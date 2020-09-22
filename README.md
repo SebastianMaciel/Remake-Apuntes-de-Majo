@@ -29,3 +29,5 @@ Un poco de HTML, CSS bastante y nada de JS.
 ## Algo para remarcar?
 
 Digamos que se mejoró un poco el responsive para que no se choquen algunos elementos, se realzó la visibilidad de otras cosas, pero la idea era no perder la esencia del diseño original.
+
+Todo esto tiene mucho de subjetividad, sírvase a gusto.
