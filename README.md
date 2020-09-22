@@ -10,9 +10,22 @@ Mirala en Netlify: [Los Apuntes de Majo - Remake](https://los-apuntes-de-majo-re
 
 Un poco de HTML, CSS bastante y nada de JS.
 
+## Dificultad/Valoración
+
+5 Sebas de Oro
+
+![](https://i.ibb.co/9bvBx6H/sebadeoro-mini.png)
+![](https://i.ibb.co/9bvBx6H/sebadeoro-mini.png)
+![](https://i.ibb.co/9bvBx6H/sebadeoro-mini.png)
+![](https://i.ibb.co/9bvBx6H/sebadeoro-mini.png)
+![](https://i.ibb.co/9bvBx6H/sebadeoro-mini.png)
+![](https://i.ibb.co/k8wPsDr/sebadeoro-mini-disabled.png)
+![](https://i.ibb.co/k8wPsDr/sebadeoro-mini-disabled.png)
+![](https://i.ibb.co/k8wPsDr/sebadeoro-mini-disabled.png)
+![](https://i.ibb.co/k8wPsDr/sebadeoro-mini-disabled.png)
+![](https://i.ibb.co/k8wPsDr/sebadeoro-mini-disabled.png)
+
 
 ## Algo para remarcar?
 
 Digamos que se mejoró un poco el responsive para que no se choquen algunos elementos, se realzó la visibilidad de otras cosas, pero la idea era no perder la esencia del diseño original.
-
-Todo esto tiene mucho de subjetividad, sírvase a gusto.
