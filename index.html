@@ -15,6 +15,7 @@
     />
 
     <!-- Funtes de Google Fonts: Nunito & Monserrat(No lo estoy usando ahora)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800;900&display=swap" rel="stylesheet" />
 
     <!-- Animate CSS -->
@@ -34,7 +35,13 @@
 
     <header>
       <div>
-        <img class="unicornio animate__animated animate__shakeY animate__delay-1s animate__slow" src="./img/favicon.svg" alt="" />
+        <img
+          class="unicornio animate__animated animate__shakeY animate__delay-1s animate__slow"
+          src="./img/favicon.svg"
+          alt="Unicornio"
+          width="50"
+          height="50"
+        />
       </div>
 
       <div class="header-links">
@@ -62,13 +69,16 @@
 
       <div class="about">
         <p class="hi">Hi human! Soy Majo 👋🏻</p>
-        <p>Realizo <span class="resaltador">apuntes a mano</span></p>
+        <p>
+          Realizo
+          <span class="resaltador">apuntes a mano</span>
+        </p>
         <p>sobre las tecnologías más utilizadas.</p>
 
         <p class="hope">¡Espero te sean de ayuda!</p>
 
         <p class="follow">
-          Puedes sugerirme temas en
+          Podés sugerirme temas en
           <a class="link" href="https://twitter.com/MajoLedes" target="_blank" rel="noreferrer">
             <i class="lab la-twitter tw" aria-hidden="true"></i>
             @majoledes
@@ -176,17 +186,17 @@
       <!-- POO con Python -->
       <a
         class="apunte poo-con-python"
-        href="https://drive.google.com/open?id=11Qd_2a9YfHq7Yt4IGLXwWRs6OFpSu-6o"
+        href="https://drive.google.com/file/d/1ChoJPc0Yhpq_QZhLSwjntqhum46WJ07Z/view"
         target="_blank"
         rel="noreferrer"
       >
         <div class="apunte-titulo">
-          <i class="lab la-css3-alt"></i>
+          <i class="lab la-python"></i>
           <h1>POO con Python</h1>
         </div>
         <div class="apunte-detalles">
-          <h2 class="apunte-tipo">Básico / Intermedio</h2>
-          <h3 class="apunte-paginas">62 Páginas</h3>
+          <h2 class="apunte-tipo">Intermedio</h2>
+          <h3 class="apunte-paginas">10 Páginas</h3>
           <div class="apunte-boton">VER APUNTE</div>
         </div>
       </a>
@@ -199,21 +209,23 @@
     <section class="colaboracion">
       <h1>Ayudame a seguir haciendo apuntes 🙈</h1>
 
-      <div class="cafecito">
-        <p>Si te sirvieron y te interesa colaborar, podes ayudarme a través de Cafecito o en "Buy Me a Coffee".</p>
-        <div class="botones-contribucion">
-          <a href="https://cafecito.app/majoledes" rel="noopener" target="_blank"
-            ><img
-              class="boton-cafecito"
+      <div class="colaboracion-links">
+        <p>Si te sirvieron y te interesa colaborar, podés ayudarme a través de Cafecito o en "Buy Me a Coffee".</p>
+        <div class="colaboracion-contenedor-botones">
+          <a href="https://cafecito.app/majoledes" rel="noopener" target="_blank">
+            <img
               srcset="https://cdn.cafecito.app/imgs/buttons/button_5.png 1x"
               src="https://cdn.cafecito.app/imgs/buttons/button_5.png"
+              width="240"
+              height="50"
               alt="Invitame un café en cafecito.app"
-          /></a>
-          <a href="https://www.buymeacoffee.com/apuntesdemajo" rel="noopener" target="_blank"
-            ><img
-              src="https://img.buymeacoffee.com/button-api/?text=Buy me a Sharpie&amp;emoji=😙&amp;slug=apuntesdemajo&amp;button_colour=a06e90&amp;font_colour=ffffff&amp;font_family=Poppins&amp;outline_colour=ffffff&amp;coffee_colour=FFDD00"
-              alt="Invitame un café en Buy Me A Coffee"
-          /></a>
+            />
+          </a>
+          <a href="https://www.buymeacoffee.com/apuntesdemajo" rel="noopener" target="_blank">
+            <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a
+            Sharpie&amp;emoji=😙&amp;slug=apuntesdemajo&amp;button_colour=a06e90&amp;font_colour=ffffff&amp;font_family=Poppins&amp;outline_colour=ffffff&amp;coffee_colour=FFDD00"
+            alt="Invitame un café en Buy Me A Coffee" width=240" height="50" />
+          </a>
         </div>
       </div>
     </section>
@@ -222,6 +234,9 @@
     <!--                        Footer                              -->
     <!---------------------------------------------------------------->
 
-    <footer>Hecho con <i class="lar la-heart"></i></footer>
+    <footer>
+      Hecho con
+      <i class="lar la-heart"></i>
+    </footer>
   </body>
 </html>
