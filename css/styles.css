@@ -70,6 +70,7 @@ header {
   margin: 0px 5px;
   /* Este margin es para que no se le pegue el flex de los apuntes */
   margin-bottom: 5px;
+  /*  */
   min-height: 300px;
   background-color: #363636;
   font-weight: 600;
@@ -166,18 +167,18 @@ header {
 
 /* Block de Apunte */
 .apunte {
-  margin: 5px;
   height: 300px;
-  min-width: 380px;
-  border-radius: 20px;
-  text-align: center;
-  color: rgb(240, 240, 240);
+  min-width: 400px;
+  margin: 5px;
   display: flex;
-  flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center;
+  flex-flow: column wrap;
   flex-grow: 1;
   flex-basis: 0;
+  text-align: center;
+  border-radius: 20px;
+  color: rgb(240, 240, 240);
   text-decoration: none;
 }
 
@@ -216,7 +217,7 @@ header {
 
 /* Hover del botón */
 .apunte-boton:hover {
-  background-color: rgb(240, 240, 240);
+  background-color:  rgba(240, 240, 240, 0.8);
   color: rgb(119, 119, 119);
 }
 
@@ -225,7 +226,7 @@ header {
 
 /* JavaScript */
 .js {
-  background-color: #cfcf7e;
+  background-color: #bebe4a;
   transition: 0.3s;
 }
 .js:hover {
@@ -268,7 +269,7 @@ header {
   filter: contrast(150%);
 }
 
-/* CSS */
+/* POO con Python */
 .poo-con-python {
   background-color: #f07167;
   transition: 0.3s;
@@ -304,9 +305,8 @@ header {
   font-size: 30px;
 }
 
-/* Empujamos un toque el bloque */
+/* Sin decoración */
 .colaboracion-links a {
-  margin-top: 30px;
   text-decoration: none;
 }
 
