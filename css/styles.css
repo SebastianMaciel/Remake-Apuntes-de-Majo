@@ -1,5 +1,5 @@
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 
   box-sizing: border-box;
   background-color: rgb(240, 240, 240);
@@ -44,11 +44,21 @@ header {
 }
 
 /* Hover sobre los links del header */
-.la-twitter:hover     { color: #1EA1F2; }
-.la-github:hover      { color: lightslategray; }
-.la-linkedin-in:hover { color: #3790C3; }
+.la-twitter:hover {
+  color: #1ea1f2;
+}
+.la-github:hover {
+  color: lightslategray;
+}
+.la-linkedin-in:hover {
+  color: #3790c3;
+}
 /* Hover suave */
-.la-twitter, .la-github, .la-linkedin-in { transition: 0.3s; }
+.la-twitter,
+.la-github,
+.la-linkedin-in {
+  transition: 0.3s;
+}
 
 /* -------------------------- */
 /*            Intro           */
@@ -72,7 +82,7 @@ header {
 
 /* Levantamos el color de fondo cuando hacemos hover  */
 .intro:hover {
-  filter: contrast(130%)
+  filter: contrast(130%);
 }
 
 /* Majo Ledesma */
@@ -127,7 +137,7 @@ header {
   margin: 0 auto;
   padding: 5px;
   max-width: 150px;
-  color: #1EA1F2;
+  color: #1ea1f2;
   text-decoration: none;
   border-radius: 5px;
   transition: 0.3s;
@@ -135,7 +145,7 @@ header {
 
 /* Cuando le hacemos hover a @majoledes */
 .follow > .link:hover {
-  background-color: #1EA1F2;
+  background-color: #1ea1f2;
   color: rgb(231, 231, 231);
   border-radius: 5px;
   transition: 0.3s;
@@ -212,23 +222,61 @@ header {
 }
 
 /* Cada vez que se agregan nuevos apuntes: */
-/* Ponemos los colores de fondo y el :hover                      Algunos fondos requieren un contraste de hover  diferente */
+/* Ponemos los colores de fondo y el :hover Algunos fondos requieren un contraste de hover  diferente */
 
 /* JavaScript */
-.js { background-color: #cfcf7e; transition: 0.3s }             .js:hover { filter: contrast(130%) }
+.js {
+  background-color: #cfcf7e;
+  transition: 0.3s;
+}
+.js:hover {
+  filter: contrast(130%);
+}
 
 /* React */
-.react { background-color: #9984A8; transition: 0.3s }          .react:hover { filter: contrast(150%) }
+.react {
+  background-color: #0081a7;
+  transition: 0.3s;
+}
+.react:hover {
+  filter: contrast(150%);
+}
 
 /* React Hooks */
-.react-hooks { background-color: #F0ADE8; transition: 0.3s }    .react-hooks:hover { filter: contrast(150%) }
+.react-hooks {
+  background-color: #00b8c4;
+  transition: 0.3s;
+}
+.react-hooks:hover {
+  filter: contrast(150%);
+}
 
 /* Python */
-.python { background-color: #8597B9; transition: 0.3s }         .python:hover { filter: contrast(150%) }
+.python {
+  background-color: #5a716a;
+  transition: 0.3s;
+}
+.python:hover {
+  filter: contrast(150%);
+}
 
 /* CSS */
-.css { background-color: rgb(255, 167, 182); transition: 0.3s } .css:hover { filter: contrast(150%) }
+.css {
+  background-color: #ad7a99;
+  transition: 0.3s;
+}
+.css:hover {
+  filter: contrast(150%);
+}
 
+/* CSS */
+.poo-con-python {
+  background-color: #f07167;
+  transition: 0.3s;
+}
+.poo-con-python:hover {
+  filter: contrast(150%);
+}
 
 /* -------------------------- */
 /*        Colaboración        */
@@ -262,6 +310,15 @@ header {
   margin-top: 30px;
 }
 
+.boton-cafecito {
+  width: 240px;
+  height: 50px;
+}
+
+.botones-contribucion {
+  margin: 30px 0px;
+}
+
 /* -------------------------- */
 /*           Footer           */
 /* -------------------------- */
@@ -276,12 +333,12 @@ footer {
   font-size: 1.2em;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  transition: 0.3s
+  transition: 0.3s;
 }
 
 /* Levantamos el color de fondo cuando hacemos hover  */
 footer:hover {
-  filter: contrast(130%)
+  filter: contrast(130%);
 }
 
 /* Media queries - Cuando llega a este punto, corregimos visual */
@@ -302,4 +359,4 @@ footer:hover {
   .majo {
     padding: 10px 0px 40px 0px;
   }
- }
+}
