@@ -312,7 +312,7 @@ header {
 
 /* Hacemos que bajen un poco más los botones */
 .colaboracion-contenedor-botones {
-  margin: 30px 0px;
+  margin-top: 60px;
 }
 
 /* -------------------------- */
