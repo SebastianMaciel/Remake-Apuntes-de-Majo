@@ -48,13 +48,13 @@ header {
 .la-github:hover {
   color: lightslategray;
 }
-.la-linkedin-in:hover {
+.la-instagram:hover {
   color: #3790c3;
 }
 /* Hover suave */
 .la-twitter,
 .la-github,
-.la-linkedin-in {
+.la-instagram {
   transition: 0.3s;
 }
 
